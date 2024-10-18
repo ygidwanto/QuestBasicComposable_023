@@ -61,8 +61,7 @@ fun BasicCompose(yogi: Modifier = Modifier){
             modifier = yogi.size(width = 200.dp, height = 200.dp))
 // menambahkan Colom baru
         Column(verticalArrangement = Arrangement.Center, modifier = Modifier.fillMaxSize(),
-
-        ){
+            horizontalAlignment = Alignment.CenterHorizontally){
 
         }
     }
