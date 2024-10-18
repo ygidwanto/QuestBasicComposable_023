@@ -14,7 +14,12 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.FontStyle
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.sp
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.basiccomposite.ui.theme.BasicCompositeTheme
 
@@ -38,12 +43,18 @@ class MainActivity : ComponentActivity() {
 @Preview(showBackground = true)
 @Composable
 fun BasicCompose(yogi: Modifier = Modifier){
-    Column(
-        verticalArrangement = Arrangement.Center, modifier = Modifier.fillMaxSize(),
-    horizontalAlignment = Alignment.CenterHorizontally) {
-
-        Text(text = "Indonesia", modifier = yogi)
-        Text(text = "Versus")
+    Column(verticalArrangement = Arrangement.Center, modifier = Modifier.fillMaxSize(),
+        horizontalAlignment = Alignment.CenterHorizontally) {
+        Text(text = "Indonesia", modifier = yogi,
+            fontSize = 30.sp, color = Color.Red, fontWeight = FontWeight.Bold,
+            )
+        Text(text = "Versus",
+            style = TextStyle(
+                fontSize = 50.sp,
+                fontStyle = FontStyle.Italic,
+                color = Color.Blue
+            )
+        )
         Image(painter = painterResource(id = R.drawable.china), contentDescription = null)
     }
 }
