@@ -59,8 +59,16 @@ fun BasicCompose(yogi: Modifier = Modifier){
         )
         Image(painter = painterResource(id = R.drawable.china), contentDescription = null,
             modifier = yogi.size(width = 200.dp, height = 200.dp))
+// menambahkan Colom baru
+        Column(verticalArrangement = Arrangement.Center, modifier = Modifier.fillMaxSize(),
+
+        ){
+
+        }
     }
 }
+
+
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
