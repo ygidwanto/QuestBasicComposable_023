@@ -9,6 +9,7 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -19,6 +20,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.basiccomposite.ui.theme.BasicCompositeTheme
@@ -55,7 +57,8 @@ fun BasicCompose(yogi: Modifier = Modifier){
                 color = Color.Blue
             )
         )
-        Image(painter = painterResource(id = R.drawable.china), contentDescription = null)
+        Image(painter = painterResource(id = R.drawable.china), contentDescription = null,
+            modifier = yogi.size(width = 200.dp, height = 200.dp))
     }
 }
 @Composable
