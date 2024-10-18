@@ -69,6 +69,8 @@ fun BasicCompose(yogi: Modifier = Modifier){
             Text(text = "NIM: 20220140023",
                fontSize = 20.sp, color = Color.DarkGray,
                 fontStyle = FontStyle.Italic)
+        Image(painter = painterResource(id = R.drawable.dewan),contentDescription = null,
+            )
         }
     }
 }
