@@ -66,7 +66,8 @@ fun BasicCompose(yogi: Modifier = Modifier){
             Text(text = "YogiDewanto", modifier = yogi,
                 fontSize = 40.sp, color = Color.Black, fontWeight = FontWeight.SemiBold
                 )
-
+            Text(text = "NIM: 20220140023",
+                )
         }
     }
 }
