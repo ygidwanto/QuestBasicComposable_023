@@ -64,7 +64,7 @@ fun BasicCompose(yogi: Modifier = Modifier){
             horizontalAlignment = Alignment.CenterHorizontally){
             Text(text = "Nama:")
             Text(text = "YogiDewanto", modifier = yogi,
-                fontSize = 40.sp, color = Color.Black, fontWeight = FontWeight.SemiBold
+                fontSize = 40.sp, color = Color.Red, fontWeight = FontWeight.SemiBold
                 )
             Text(text = "NIM: 20220140023",
                fontSize = 20.sp, color = Color.Red,
