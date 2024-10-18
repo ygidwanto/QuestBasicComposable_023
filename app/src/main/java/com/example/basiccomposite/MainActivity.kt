@@ -67,7 +67,7 @@ fun BasicCompose(yogi: Modifier = Modifier){
                 fontSize = 40.sp, color = Color.Red, fontWeight = FontWeight.SemiBold
                 )
             Text(text = "NIM: 20220140023",
-               fontSize = 20.sp, color = Color.Red,
+               fontSize = 20.sp, color = Color.DarkGray,
                 fontStyle = FontStyle.Italic)
         }
     }
