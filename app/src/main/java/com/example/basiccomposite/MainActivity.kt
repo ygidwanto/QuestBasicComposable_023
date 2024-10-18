@@ -19,6 +19,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontStyle
+import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -68,7 +69,7 @@ fun BasicCompose(yogi: Modifier = Modifier){
                 )
             Text(text = "NIM: 20220140023",
                fontSize = 20.sp, color = Color.DarkGray,
-                fontStyle = FontStyle.Italic)
+                fontFamily = FontFamily.SansSerif)
         Image(painter = painterResource(id = R.drawable.dewan),contentDescription = null,
             )
         }
