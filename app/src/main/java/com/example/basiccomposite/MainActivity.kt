@@ -72,7 +72,7 @@ fun BasicCompose(yogi: Modifier = Modifier){
                fontSize = 20.sp, color = Color.DarkGray,
                 fontFamily = FontFamily.SansSerif)
         Image(painter = painterResource(id = R.drawable.dewan),contentDescription = null,
-            )
+            modifier = yogi.size(width = 450.dp, height = 450.dp))
         }
     }
 }
