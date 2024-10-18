@@ -62,9 +62,11 @@ fun BasicCompose(yogi: Modifier = Modifier){
 // menambahkan Colom baru
         Column(verticalArrangement = Arrangement.Center, modifier = Modifier.fillMaxSize(),
             horizontalAlignment = Alignment.CenterHorizontally){
+            Text(text = "Nama:")
             Text(text = "YogiDewanto", modifier = yogi,
                 fontSize = 40.sp, color = Color.Black, fontWeight = FontWeight.SemiBold
                 )
+
         }
     }
 }
