@@ -1,1 +1,1 @@
-![Yogi](https://github.com/user-attachments/assets/7c534d60-7034-454e-82cc-731e7fff65a7)
+![image](https://github.com/user-attachments/assets/a03f4bad-bdcf-42a0-a6e4-e566622abbac)
